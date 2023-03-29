@@ -17,41 +17,162 @@
     <a href="Seite 3.html">Seite 3s</a> <br>
     <img src="Tomate.jpg" alt="Tomaten" width="200px" height="100px">
 
+
+
+
+
+
+
+
+    <table>
+        <tr>
+            <td>Albert Einstein</td>
+            <td>1879</td>
+            <td>Physik</td>
+
+        </tr>
+
+        <tr>
+            <td>Charles Darwin</td>
+            <td>1809</td>
+            <td>Biologie</td>
+        </tr>
+
+
+
+
+
+    </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <div class="fenster">
-    Ich bin ein div Container, mit einem schwarzen Hintergrund und weißer Schrift.
-    Außerdem habe ich eine Höhe von 500 Pixeln und eine Breite von 900 Pixeln.
+        <ul>
+            <h1>
+                Ich bin eine Liste mit den Informationen über meinen div container</h1>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <li>Meine Border beträgt 3 Pixel</li>
+            <br>
+            <li>Meine Breite beträgt 900 Pixel</li>
+            <br>
+            <li>Meine Höhe beträgt 500 Pixel</li>
+            <br>
+            <li>Mein Hintergrund ist schwarz</li>
+            <br>
+            <li>Meine Schriftfarbe ist weiß</li>
+            <br>
+        </ul>
+
+
+
     </div>
 
 
 
     <div class="fenster">
-    ich bin auch ein div Container, mit einem schwarzen Hintergrund und weißer Schrift.
-    Außerdem habe ich eine Höhe von 100 Pixeln und eine Breite von 500 Pixeln.
+        ich bin auch ein div Container, mit einem schwarzen Hintergrund und weißer Schrift. Außerdem habe ich eine Höhe von 100 Pixeln und eine Breite von 500 Pixeln.
+
+
     </div>
 
-    
-    
+
+
     <div class="fenster">
-    Ich bin ein div Container, mit einem schwarzen Hintergrund und weißer Schrift.
-    Außerdem habe ich eine Höhe von 500 Pixeln und eine Breite von 900 Pixeln.
+        Ich bin ein div Container, mit einem schwarzen Hintergrund und weißer Schrift. Außerdem habe ich eine Höhe von 500 Pixeln und eine Breite von 900 Pixeln.
     </div>
 
 
-    
+
     <div class="fenster">
-    Ich bin ein div Container, mit einem schwarzen Hintergrund und weißer Schrift.
-    Außerdem habe ich eine Höhe von 500 Pixeln und eine Breite von 900 Pixeln.
+        Ich bin ein div Container, mit einem schwarzen Hintergrund und weißer Schrift. Außerdem habe ich eine Höhe von 500 Pixeln und eine Breite von 900 Pixeln.
     </div>
 
-            
-    
+
+
     <div class="fenster">
-    Ich bin ein div Container, mit einem schwarzen Hintergrund und weißer Schrift.
-    Außerdem habe ich eine Höhe von 500 Pixeln und eine Breite von 900 Pixeln.
+        Ich bin ein div Container, mit einem schwarzen Hintergrund und weißer Schrift. Außerdem habe ich eine Höhe von 500 Pixeln und eine Breite von 900 Pixeln.
     </div>
 
+    <table>
+        <br>
+        <br>
+        <thead>
+            <tr>
+                <th>Forscher</th>
+                <th>Geboren</th>
+                <th>Bereich</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Albert Einstein</td>
+                <td>1879</td>
+                <td>Physik</td>
+
+            </tr>
+
+            <tr>
+                <td>Charles Darwin</td>
+                <td>1809</td>
+                <td>Biologie</td>
+            </tr>
+
+            <tr>
+                <td>Steven Hawking</td>
+                <td>1942</td>
+                <td>Physik</td>
+
+            </tr>
+
+            <tr>
+                <td>Fritz Haber</td>
+                <td>1868</td>
+                <td>Chemie</td>
+
+            </tr>
+
+            <tr>
+                <td>Max Planck</td>
+                <td>1858</td>
+                <td>Physik</td>
+
+            </tr>
+
+        </tbody>
 
 
+
+
+
+
+
+
+
+
+    </table>
+
+
+    <h2>Ich bin ein gradient Text</h2>
 
 
 
@@ -61,18 +182,64 @@
 </body>
 
 <style>
-
-
     .fenster {
-        border: 3px;
-        
+        border: 3px solid;
         display: flex;
+        padding: 20px 10px;
         width: 900px;
         height: 500px;
         background: black;
         color: white;
-    }   
+    }
+    
+    table {
+        font-size: 32px;
+        border-collapse: collapse;
+        background-color: red;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 01);
+    }
+    
+    td,
+    th {
+        padding: 25px 55px;
+        text-align: left;
+    }
+    
+    thead {
+        box-shadow: 0 3px 6px #00000030;
+        background-color: royalblue;
+    }
+    
+    th:first-child {
+        border-radius: 20px 0 0 0;
+    }
+    
+    th:last-child {
+        border-radius: 0 20px 0 0;
+    }
+    
+    tr:nth-child(even) {
+        background-color: #346a5a;
+    }
+    
+    button {
+        height: 100px;
+        width: 300px;
+        background-color: #6f00ff;
+        border: none;
+        border-radius: 4px;
+        color: white;
+        font-size: 32px;
+        font-weight: bold;
+        transition: 0, 4sec ease-in-out;
+        box-shadow: 0 0 0 0 #22d4ff inset;
+    }
+    
+    button:hover {
+        box-shadow: 300px 0 0 0 #22d4ff inset;
+    }
 </style>
 
 
-</html>
+
+</html>>
